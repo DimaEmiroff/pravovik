@@ -287,7 +287,7 @@ input {
 
 .sect__time {
     font: 'Roboto', sans-serif;
-    font-size: 24px;
+    font-size: 16px;
     color:  #424242;
     text-align: center;
     margin-top: 100px;
@@ -408,9 +408,7 @@ input {
 .consult__free_help {
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
-    
-    
+    margin-top: 100px;   
     text-transform: uppercase;   
     text-align: left;
     color: #ffffff;
@@ -438,7 +436,22 @@ input {
     height: 340px;
     background-color: #ffffff;
 }
-
+.foot__prav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.9em;
+   
+}
+.foot__addres {
+    text-align: left;
+}
+.foot__offers {
+    text-align: right;
+   
+}
 
 
 
